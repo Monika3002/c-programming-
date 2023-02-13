@@ -1,17 +1,9 @@
 #include<stdio.h>
 #define MAX_SIZE 100
-// void swap(){
-// int temp,j,i,arr[MAX_SIZE];
-//     temp=arr[i];
-//     arr[i]=arr[j];
-//     arr[j]=temp;
-    
-// }
 int main(){
     int temp,i,j,n,arr[MAX_SIZE];
-    n=6;
-    printf("Enter the size of array :\n");
-    scanf(" %d ",&n);
+    printf("Enter the size of array :");
+    scanf("%d",&n);
 
     printf("Enter the element in array \n");
     for(i=0;i<n;i++){
